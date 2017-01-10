@@ -8,7 +8,18 @@
 </head>
 <body>
 
+  <%= render 'layouts/nav' %>
+  
+  <%= bootstrap_flash %>
+<div class="container">
+    
+ 
 <%= yield %>
+<%= render 'layouts/foot' %>
+
+</div>
+
+
 
 </body>
 </html>
